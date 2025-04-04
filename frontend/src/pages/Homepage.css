@@ -1,0 +1,43 @@
+/* pages/Homepage.css */
+.homepage {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Keep your existing App.css */
+  .app {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Keep your existing Navbar.css */
+  .navbar {
+    background-color: #4a2c2a;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .navbar-brand h2 {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 2rem;
+    padding-right: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-links a:hover {
+    color: #d4a373;
+  }
